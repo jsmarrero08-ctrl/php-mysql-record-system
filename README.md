@@ -1,64 +1,55 @@
 # PHP & MySQL Record Management System
 
-A web-based CRUD application demonstrating database connectivity, structured record management, and backend data handling using PHP and MySQL.
+This project is a simple web application built to manage records using PHP and MySQL.
 
 ---
 
-## Project Overview
+## About this project
 
-This project showcases the development of a simple record management system built with PHP and MySQL.  
-The application connects a PHP frontend to a relational database and performs Create, Read, Update, and Delete (CRUD) operations.
+I built this application to store and manage data through a web interface. It connects to a MySQL database and allows basic operations like adding, editing, and deleting records.
 
-The goal was to demonstrate backend database integration and structured data manipulation within a web environment.
-
----
-
-## Application Features
-
-- Create new records  
-- View records in a structured table  
-- Update and modify existing entries  
-- Delete records securely  
-- Basic navigation through a main interface  
+The goal was to practice working with a database and understand how data is handled in a web application.
 
 ---
 
-## Key Skills Demonstrated
+## Features
 
-- Backend development with PHP  
-- MySQL database connectivity  
-- CRUD operations implementation  
-- Structured record management  
-- Basic frontend integration (HTML/CSS)  
-- Database configuration and environment setup  
+- Add new records  
+- View records in a table  
+- Edit existing records  
+- Delete records  
+- Simple navigation through the app  
 
 ---
 
-## Tech Stack
+## What I worked on
+
+- Connected PHP with a MySQL database  
+- Built CRUD functionality (Create, Read, Update, Delete)  
+- Managed data using SQL queries  
+- Worked with basic frontend using HTML and CSS  
+
+---
+
+## Tools used
 
 - PHP  
 - MySQL (phpMyAdmin)  
 - HTML / CSS  
-- XAMPP (local development environment)  
+- XAMPP  
 
 ---
 
 ## Setup (Local Environment)
 
-1. Place the project folder inside your local server directory (e.g., `htdocs` in XAMPP).  
-2. Import the provided SQL schema into phpMyAdmin.  
+1. Place the project folder inside your server directory (for example, `htdocs` if you're using XAMPP).  
+2. Import the SQL file into phpMyAdmin.  
 3. Copy `Web_Config.example.php` and rename it to `Web_Config.php`.  
-4. Insert your local database credentials.  
-5. Open the application in your browser.
+4. Add your database credentials inside that file.  
+5. Open the project in your browser.  
 
 ---
 
 ## Security Note
 
-`Web_Config.php` is intentionally excluded from version control to prevent exposure of database credentials.
-
----
-
-## Business Relevance
-
-This project demonstrates practical understanding of relational database interaction, structured data manipulation, and backend system functionality. It reflects foundational knowledge applicable to data-driven applications and operational database systems.
+The `Web_Config.php` file is not included in the repository to avoid exposing database credentials.
